@@ -2,7 +2,7 @@
 A full-level domain adaptation network for cross-domain land cover classification of remote sensing images
 
 ## Flowchart
-![image](https://github.com/Myk1011/FLDA-NET/blob/main/FLDA-NET.jpg)
+[image]!(https://github.com/Myk1011/FLDA-NET/blob/main/FLDA-NET.jpg)
 
 ## Requirements
 - Python 3.9
@@ -16,5 +16,5 @@ A full-level domain adaptation network for cross-domain land cover classificatio
 ## Train
 - python train.py
   
-## Evalute
-python evalute.py 
+## Evaluate
+- python evaluate.py 
