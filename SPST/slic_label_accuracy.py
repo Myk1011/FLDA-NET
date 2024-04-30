@@ -75,7 +75,7 @@ def trans_Slic(imgloc="", labloc="", slicloc="", scale="", sigma="", min_size=""
 
 
 if __name__ == '__main__':
-    imgloc = r"C:\Users\Lenovo\Desktop\毕业\孟雨柯\小论文\模型对比\Vaihingen_Potsdam\pseudo\output\image"
-    labelloc = r"C:\Users\Lenovo\Desktop\毕业\孟雨柯\小论文\模型对比\Vaihingen_Potsdam\pseudo\output\predict"
+    imgloc = r"G:\Vaihingen_Potsdam\pseudo\output\image"
+    labelloc = r"G:\Vaihingen_Potsdam\pseudo\output\predict"
     slicloc = r"C:\Users\Lenovo\Desktop\slic"
     trans_Slic(imgloc=imgloc, labloc=labelloc, slicloc=slicloc, scale=1, sigma=0.8, min_size=10)
