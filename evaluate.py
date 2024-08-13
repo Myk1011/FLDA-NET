@@ -78,7 +78,7 @@ def main():
             transform_image, label, _, name, image = batch
 
             output1, output2, feature = model(Variable(transform_image).cuda(gpu0))
-            predict = interp(output1).cpu().data[0].numpy()
+            predict = interp(output2).cpu().data[0].numpy()
             predict = predict.transpose(1, 2, 0)
             predict = np.asarray(np.argmax(predict, axis=2), dtype=np.uint8)
 
