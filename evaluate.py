@@ -13,7 +13,7 @@ from model.deeplabv2_feature import DeeplabV2_101
 from prettytable import PrettyTable
 from tqdm import tqdm
 
-NUM_CLASSES = 5
+NUM_CLASSES = 6
 DATA_DIRECTORY = r'G:\P_V_resample\cyclegan\likeV\train\Vaihingen'
 DATA_LIST_PATH = r'G:\P_V_resample\cyclegan\likeV\train\Vaihingen\image'
 RESTORE_FROM = r'G:\Potsdam_Vaihingen\Full_level\model\Potsdam_22000.pth'
